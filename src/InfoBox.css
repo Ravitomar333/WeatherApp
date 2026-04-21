@@ -1,0 +1,22 @@
+.InfoBox{
+   text-align:center;
+   margin-top:25px;
+  
+}
+
+.cardContainer{
+    display:flex;
+    justify-content:center;
+    
+}
+
+.cardContainer .MuiCard-root {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+/* Hover effect */
+.cardContainer .MuiCard-root:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
