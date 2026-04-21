@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import TextField from '@mui/material/TextField';
 import SendIcon from '@mui/icons-material/Send';
 import Button from '@mui/material/Button';
-import "./Searchbox.css"
+import "./SearchBox.css"
 
 function SearchBox({updateInfo}) {
     let[city, setCity] = useState("");
